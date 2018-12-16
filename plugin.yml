@@ -1,0 +1,18 @@
+name: AHeal
+main: AHeal\main
+api: 3.0.0
+version: 2.0.0
+author: AvionMoine10575
+
+commands:
+ heal:
+  description: Do /heal to give you full life!
+  aliases: ["max"]
+
+permissions:
+ heal.command:
+  default: op
+  description: Here's the perms to do the command /heal
+ heal.other:
+  default: op
+  description: It's the way to heal an other player!
